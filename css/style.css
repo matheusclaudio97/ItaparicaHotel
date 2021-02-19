@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+a {
+
+    font-family: 'Lato', sans-serif;
+    color: #9a9a9a;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1366px;
+    margin: 0 auto;
+    
+
+}
+
+.main-container {
+    display: flex;
+    width: 1366px;
+    height: 750px;
+    flex-wrap: wrap;
+    background-image: url(/img/main-img.png);
+    background-repeat: no-repeat;
+
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    top: 13px;
+    left: 10px;
+    width: 1283px;
+    height: 74px;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 8px;
+    position: relative;
+}
+
+.img-logo {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 110px;
+    top: 5px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    right: 120px;
+
+
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.menu li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #9a9a9a;
+
+
+
+}
+
+.reserva {
+    background-color: #f16136;
+    padding: 10px;
+    border-radius: 19px;
+    
+}
+.a-reserva {
+    color: white;
+}
+
+.card-hotel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 290px;
+    width: 272px;
+    height: 403px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 26px #947B5F74;
+    border-radius: 11px;
+    opacity: 1;
+}
+
+.card-logo {
+    width: 130px;
+    height: 72px;
+    margin-top: 19px;
+
+
+}
+
+.p1 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    color: #707070;
+    font-size: 10px;
+
+}
+
+.p2 {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #707070;
+    text-align: center;
+
+}
+
+.btn-1 {
+    width: 242px;
+    height: 37px;
+    background: #F16136 0% 0% no-repeat padding-box;
+    border-radius: 19px;
+    opacity: 1;
+    font-family: 'Lato', sans-serif;
+    color: white;
+
+
+}
+
+.btn-2 {
+    border: 1px solid #9A9A9A;
+    border-radius: 19px;
+    opacity: 1;
+    width: 242px;
+    height: 37px;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #9A9A9A;
+
+}
+
+.retangulo-bar {
+    width: 250px;
+    height: 2px;
+    background: #E6E6E6 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.section-title {
+    letter-spacing: 6.4px;
+    color: #BABABA;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 32px;
+    text-align: center;
+}
+
+.section-1 {
+    margin-top: 50px;
+    width: 610px;
+    height: 78px;
+    margin-bottom: 20px;
+}
+
+.container-lazer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1366px;
+}
+
+.carousel-control-prev-icon{
+    
+    width:45px;
+    height: 47px;
+}
+
+.section-title-2 {
+    color: #f16136;
+    opacity: 1;
+    font-size: 32px;
+    text-align: center;
+    width: 138px;
+    height: 46px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.p-section-2{
+    color: #BABABA;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    width: 238px;
+    height: 17px;
+}
+.btn-vquartos{
+    margin-top: 15px;
+    border-radius: 19px;
+    border: 1px solid #9A9A9A;
+    width: 242px;
+    height: 37px;
+    background-color: white;
+    color: #9A9A9A;
+    text-align: center;
+    font-size: 16px;
+    font-weight:600; 
+}
